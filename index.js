@@ -1,3 +1,9 @@
 class Formatter {
-  //add static methods here
+  static capitalize() {
+    console.log("welcom to camp ".toUpperCase);
+  }
+
+  static sanitize() {
+    console.log("welcom @  to & camp".toString);
+  }
 }
